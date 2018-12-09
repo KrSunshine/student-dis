@@ -13,6 +13,12 @@ html, body {
     text-align: center;
     font-size: 2.6rem;
   }
+
+p {
+    max-width: 65%;
+    min-width: 500px;
+}
+  
   
   div {
     padding-right: 30px;
