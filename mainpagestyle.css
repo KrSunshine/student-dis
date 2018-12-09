@@ -1,17 +1,12 @@
 html, body {
     font-family: sans-serif;
     margin: 0;
-    width: 100%;
+    width: 60%;
     height: 100%;
   }
   
   h1 {
     font-size: 48px;
-  }
-  
-  p {
-    max-width: 65%;
-    min-width: 500px;
   }
   
   h2 {
@@ -25,11 +20,6 @@ html, body {
     width: 100%;
   }
   
-  video {
-    background-color: #000000;
-    border: 2px solid black;
-  }
-  
   .container {
     display: flex;
   }
@@ -37,6 +27,12 @@ html, body {
   .main {
     padding-left: 30px;
     min-width: 75%;
+  }
+
+  .instruction {
+      padding-left: 30px;
+      min-width: 75%;
+      display: block;
   }
 
 .nav {
