@@ -1,7 +1,7 @@
 ﻿<?php
     session_start();
     $studentid = $_SESSION['studentid'];
-    echo $studentid;
+    //echo $studentid;
     $servername = "mysql.cs.nott.ac.uk";
     $dbusername = "psxra11";
     $dbpassword = "MEOWMEOWXX";
@@ -39,16 +39,16 @@
 <body>
     <div class="container">
         <div class="nav">
-            <h2><a href="mainpage.html">Menu</a></h2>
+            <h2><a href="mainpage.php">Menu</a></h2>
             <ul>
                 <li><a href="modulepage.php">My Modules</a></li>
-                <li><a href="exampage.html">My Exams</a></li>
+                <li><a href="exampage.php">My Exams</a></li>
                 <li>My Info</li>
             </ul>
             <div class="misc">
                 <ul>
                   <li>Help</li>
-                  <li>Log out</li>
+                  <li><a href = "logout.php">Log out</a></li>
                 </ul>
             </div>
         </div>
@@ -58,7 +58,7 @@
                 while($row = $result->fetch_assoc())
                 {
                     echo "<p>";
-                    echo "name: " . $row["modulename"]. "level: " .$row["levels"]. "credit: " .$row["credits"];  
+                    echo "name: " . $row["modulename"] . "level: " .$row["levels"] . "credit: " .$row["credits"];  
                     echo "</p>"; 
                 } 
             ?>

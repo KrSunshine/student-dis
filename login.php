@@ -15,7 +15,7 @@ if(isset($_POST['username']) and isset($_POST['password']))
 		if ($conn->connect_error) {
 			die("Connection failed: " . $conn->connect_error);
 		} 
-		echo "Connected successfully";
+		//echo "Connected successfully";
 		$sql = "SELECT * from accounts where username = '$username' and password = '$password'"; 
 
 		if ($result = $conn->query($sql))
