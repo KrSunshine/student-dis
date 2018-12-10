@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<?php
+    session_start();
+    $studentid = $_SESSION['studentid'];
+    echo $studentid;
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <title>Your Student Space</title>
@@ -8,12 +14,18 @@
 <body>
   <div class="container">
     <div class="nav">
-  		<h2>Menu</h2>
+  		<h2><a href="mainpage.php">Menu</a></h2>
   		<ul>
-    		<li>My Modules</li>
-    		<li>My Exams</li>
+    		<li><a href="modulepage.php">My Modules</a></li>
+    		<li><a href="exampage.html">My Exams</a></li>
     		<li>My Info</li>
-  		</ul>
+      </ul>
+      <div class="misc">
+        <ul>
+          <li>Help</li>
+          <li>Log out</li>
+        </ul>
+      </div>
     </div>
     <div class="main">
         <h1>Welcome to your Student Space</h1>     

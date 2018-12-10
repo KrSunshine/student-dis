@@ -21,9 +21,14 @@ if(isset($_POST['username']) and isset($_POST['password']))
 		if ($result = $conn->query($sql))
 		{
 			if($result ->num_rows > 0) {
-				echo "Succesful Login";
-				header("location: mainpage.html");
-			}	
+					echo "Succesful Login";
+					$row = $result->fetch_assoc();
+					$studentid = $row["studentid"];
+					echo $studentid;
+					session_start();
+					$_SESSION["studentid"] = $studentid;
+					header("location: mainpage.php");
+					}	
 			else { 
 				echo "Wrong Password or Username";  
 			}
