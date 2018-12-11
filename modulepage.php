@@ -54,6 +54,7 @@
         </div>
         <div class="main">
             <h1>My modules</h1>
+			<div class = "data">
             <?php  
                 while($row = $result->fetch_assoc())
                 {
@@ -62,6 +63,7 @@
                     echo "</p>"; 
                 } 
             ?>
+			</div>
         </div>
     </div>
 </body>

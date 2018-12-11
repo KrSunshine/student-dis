@@ -17,7 +17,7 @@
         <h2><a href="mainpage.php">Menu</a></h2>
         <ul>
           <li><a href="modulepage.php">My Modules</a></li>
-          <li><a href="exampage.html">My Exams</a></li>
+          <li><a href="exampage.php">My Exams</a></li>
           <li>My Info</li>
         </ul>
         <div class="misc">
