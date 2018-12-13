@@ -59,7 +59,11 @@
                 while($row = $result->fetch_assoc())
                 {
                     echo "<p>";
-                    echo "name: " . $row["modulename"] . "level: " .$row["levels"] . "credit: " .$row["credits"];  
+                    echo "Name: " . $row["modulename"];  
+                    echo "<br>";
+                    echo "Level: " .$row["levels"];
+                    echo "<br>";
+                    echo "Credit: " .$row["credits"];
                     echo "</p>"; 
                 } 
             ?>

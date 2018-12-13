@@ -24,7 +24,7 @@ if(isset($_POST['username']) and isset($_POST['password']))
 					echo "Succesful Login";
 					$row = $result->fetch_assoc();
 					$studentid = $row["studentid"];
-					echo $studentid;
+					//echo $studentid;
 					session_start();
 					$_SESSION["studentid"] = $studentid;
 					header("location: mainpage.php");

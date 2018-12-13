@@ -36,7 +36,7 @@ CREATE TABLE `exams` (
 
 LOCK TABLES `exams` WRITE;
 /*!40000 ALTER TABLE `exams` DISABLE KEYS */;
-INSERT INTO `exams` VALUES (101,'1 Apr 2030','Food Processing Practical'),(202,'12 Dec 2030','3000 word essay on Pokemon Evolution');
+INSERT INTO `exams` VALUES (101,'1 Apr 2030','Food Processing Practical'),(202,'12 Dec 2030','3000 word essay on Pokemon Evolution'),(303,'30 Feb 2030','Pokemon Evolution Multiple Choice'),(404,'4 May 2030','Meaning of Life written exam'),(505,'7 May 2030','Pokemon battle practical ');
 /*!40000 ALTER TABLE `exams` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-11 11:08:02
+-- Dump completed on 2018-12-13 18:14:56

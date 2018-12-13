@@ -32,7 +32,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Modules</title>
+	<title>My Exams</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="examstyle.css">
 </head>
@@ -54,14 +54,18 @@
 		</div>
 		<div class="main">
 			<h1>My Exams</h1>
+			<div class="data">
 			<?php  
                 while($row = $result->fetch_assoc())
                 {
                     echo "<p>";
-                    echo "Exam Name: " . $row["examname"]. "Date: " .$row["examdate"];  
+                    echo "Exam Name: " . $row["examname"]; 
+                    echo "<br>";
+                    echo "Date: " .$row["examdate"];  
                     echo "</p>"; 
                 } 
             ?>
+			</div>
 		</div>
 	</div>
 </body>

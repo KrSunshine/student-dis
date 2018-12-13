@@ -29,8 +29,8 @@
     min-width: 75%;
   }
 
-   .container .main .data {
-    border-left: 5px solid saddlebrown;
+  .data p {
+    border: 3px groove saddlebrown;
     background-color: #FBE0B6;
     margin: 25px;
   }

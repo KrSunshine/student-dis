@@ -37,7 +37,7 @@ CREATE TABLE `modules` (
 
 LOCK TABLES `modules` WRITE;
 /*!40000 ALTER TABLE `modules` DISABLE KEYS */;
-INSERT INTO `modules` VALUES (11,'Food Primary Processing',1,10),(22,'Pokemon Evolution',4,40),(111,'Food Materials',1,20),(222,'Pokemon Types',1,10);
+INSERT INTO `modules` VALUES (11,'Food Primary Processing',1,10),(22,'Pokemon Evolution',4,40),(111,'Food Materials',1,20),(222,'Pokemon Types',1,10),(333,'Meaning of Life',4,10),(444,'Pokemon Creation',5,20),(555,'Pokemon Research',4,40);
 /*!40000 ALTER TABLE `modules` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-11 11:08:02
+-- Dump completed on 2018-12-13 18:14:55
